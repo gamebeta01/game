@@ -1,0 +1,95 @@
+{include file="public/head" /}
+<title>权限管理</title>
+</head>
+<body>
+<article class="cl pd-20">
+	<form action="" method="post" class="form form-horizontal" id="form-admin-role-add">
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>权限名称：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="{$row.power_name}" placeholder="" id="power_name" name="power_name" datatype="*4-16" nullmsg="权限名称不能为空">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>字段名：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="{$row.power_url}" placeholder="" id="power_url" name="power_url" datatype="*4-16" nullmsg="字段名不能为空">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3">按钮类别：</label>
+			<div class="formControls col-xs-8 col-sm-9"> <span class="select-box" style="width:300px;">
+				<select class="select" name="power_menu" size="1">
+
+					<option value="0">一级按钮</option>
+					{volist name="list" id="vo"}
+					{eq name="$vo['menu_id']" value="$row['power_menu']"}
+						<?php $selected="selected='selected'";?>
+					{else}
+						<?php $selected="";?>
+					{/eq}
+					<option value="{$vo.menu_id}" {$selected}>{$vo.menu_name}</option>
+					{/volist}
+				</select>
+				</span> </div>
+		</div>	
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3">备注：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="{$row.power_note}" placeholder="" id="" name="power_note">
+			</div>
+		</div>
+		
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+				<button type="submit" class="btn btn-success radius" id="admin-role-save"><i class="icon-ok"></i> 确定</button>
+			</div>
+		</div>
+	</form>
+</article>
+<!--_footer 作为公共模版分离出去-->
+{include file="public/foot"} 
+<!--/_footer /作为公共模版分离出去-->
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="/static/lib/jquery.validation/1.14.0/jquery.validate.js"></script> 
+<script type="text/javascript" src="/static/lib/jquery.validation/1.14.0/validate-methods.js"></script> 
+<script type="text/javascript" src="/static/lib/jquery.validation/1.14.0/messages_zh.js"></script> 
+<script type="text/javascript">
+$(function(){
+	
+	$("#form-admin-role-add").validate({
+		rules:{
+			power_name:{
+				required:true,
+			},
+			power_url:{
+				required:true,
+			}
+		},
+		onkeyup:false,
+		focusCleanup:true,
+		success:"valid",
+		submitHandler:function(form){
+			$(form).ajaxSubmit(function(data){
+				
+				var index = parent.layer.getFrameIndex(window.name);
+				if(data['status'] == 1){
+					parent.layer.msg(data['msg']);
+					setTimeout(function(){parent.layer.close(index);},1000);
+				}else if(data['status'] == -1){
+					parent.layer.msg(data['msg']);
+				}else if(data['status'] == -5){
+					alert(data['msg']);
+					parent.layer.msg(data['msg']);
+				}
+			});
+					
+		}
+	});
+});
+
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

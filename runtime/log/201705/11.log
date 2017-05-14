@@ -1,0 +1,4391 @@
+---------------------------------------------------------------
+[ 2017-05-11T08:31:02+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_power.html
+[ info ] gamebeta.cn/admin/manager/list_power.html [运行时间：0.391936s][吞吐率：2.55req/s] [内存消耗：2,401.23kb] [文件加载：62]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_power',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/menu/list_menu.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_power[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_power.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003252s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_power` [ RunTime:0.265819s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_power` LIMIT 1 [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SELECT * FROM `game_power` LIMIT 0,20 [ RunTime:0.000771s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:31:02+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/favicon.ico
+[ info ] gamebeta.cn/admin/manager/favicon.ico [运行时间：0.036111s][吞吐率：27.69req/s] [内存消耗：2,236.73kb] [文件加载：59]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'favicon.ico',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T08:32:44+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_role.html
+[ info ] gamebeta.cn/admin/manager/list_role.html [运行时间：0.097011s][吞吐率：10.31req/s] [内存消耗：2,402.57kb] [文件加载：62]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_power.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_role[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_role.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000855s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_role` [ RunTime:0.052210s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SELECT * FROM `game_role` LIMIT 0,20 [ RunTime:0.000325s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:39:19+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_role.html
+[ info ] gamebeta.cn/admin/manager/list_role.html [运行时间：0.169288s][吞吐率：5.91req/s] [内存消耗：2,565.77kb] [文件加载：68]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_power.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_role[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_role.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003253s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_role` [ RunTime:0.010127s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000900s ]
+[ sql ] [ SQL ] SELECT * FROM `game_role` LIMIT 0,20 [ RunTime:0.000513s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000410s ]
+[ error ] [8]未定义变量: vo[G:\www11\gamebeta01\runtime\temp\73d76b60d6a18c56b87c62c250b4b577.php:208]
+---------------------------------------------------------------
+[ 2017-05-11T08:40:29+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_role.html
+[ info ] gamebeta.cn/admin/manager/list_role.html [运行时间：0.051434s][吞吐率：19.44req/s] [内存消耗：2,533.91kb] [文件加载：64]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_power.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_role[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_role.html [ array (
+  0 => 'all_count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000692s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_role` [ RunTime:0.007646s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000488s ]
+[ sql ] [ SQL ] SELECT * FROM `game_role` LIMIT 0,20 [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000242s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:40:40+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_role.html
+[ info ] gamebeta.cn/admin/manager/list_role.html [运行时间：0.056424s][吞吐率：17.72req/s] [内存消耗：2,533.95kb] [文件加载：64]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_power.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_role[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_role.html [ array (
+  0 => 'all_count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000720s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_role` [ RunTime:0.005877s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SELECT * FROM `game_role` LIMIT 0,20 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000265s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:41:41+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_role.html
+[ info ] gamebeta.cn/admin/manager/list_role.html [运行时间：0.074604s][吞吐率：13.40req/s] [内存消耗：2,553.50kb] [文件加载：66]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_power.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_role[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_role.html [ array (
+  0 => 'all_count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000649s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_role` [ RunTime:0.006655s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SELECT * FROM `game_role` LIMIT 0,20 [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000222s ]
+[ error ] [0]类的属性不存在:app\admin\model\GameRole->power_id[G:\www11\gamebeta01\thinkphp\library\think\Model.php:548]
+---------------------------------------------------------------
+[ 2017-05-11T08:41:56+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_role.html
+[ info ] gamebeta.cn/admin/manager/list_role.html [运行时间：0.066022s][吞吐率：15.15req/s] [内存消耗：2,534.10kb] [文件加载：64]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_power.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_role[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_role.html [ array (
+  0 => 'all_count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000713s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_role` [ RunTime:0.005798s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SELECT * FROM `game_role` LIMIT 0,20 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000203s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:42:00+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/manager/del_role.html
+[ info ] gamebeta.cn/admin/manager/del_role.html [运行时间：0.147052s][吞吐率：6.80req/s] [内存消耗：2,334.78kb] [文件加载：61]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'del_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'content-length' => '4',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_role.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->del_role[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000647s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_role` [ RunTime:0.005789s ]
+[ sql ] [ SQL ] SELECT * FROM `game_role` WHERE  `role_id` = 3 [ RunTime:0.000421s ]
+[ sql ] [ SQL ] DELETE FROM `game_role`    WHERE  `role_id` = 3 [ RunTime:0.014212s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:42:03+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_role.html
+[ info ] gamebeta.cn/admin/manager/list_role.html [运行时间：0.048033s][吞吐率：20.82req/s] [内存消耗：2,401.53kb] [文件加载：62]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_role.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_role[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_role.html [ array (
+  0 => 'all_count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000762s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_role` [ RunTime:0.005663s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SELECT * FROM `game_role` LIMIT 0,20 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000271s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:42:33+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_role.html
+[ info ] gamebeta.cn/admin/manager/list_role.html [运行时间：0.073650s][吞吐率：13.58req/s] [内存消耗：2,532.62kb] [文件加载：64]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_role.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_role[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_role.html [ array (
+  0 => 'all_count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000736s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_role` [ RunTime:0.005937s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SELECT * FROM `game_role` LIMIT 0,20 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000267s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:42:37+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/manager/del_mpower.html
+[ info ] gamebeta.cn/admin/manager/del_mpower.html [运行时间：0.065002s][吞吐率：15.38req/s] [内存消耗：2,246.96kb] [文件加载：60]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'del_mpower',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_role.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [2]session_start(): Cannot send session cache limiter - headers already sent[G:\www11\gamebeta01\thinkphp\library\think\Session.php:105]
+---------------------------------------------------------------
+[ 2017-05-11T08:42:40+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_role.html
+[ info ] gamebeta.cn/admin/manager/list_role.html [运行时间：0.049535s][吞吐率：20.19req/s] [内存消耗：2,401.55kb] [文件加载：62]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_role.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_role[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_role.html [ array (
+  0 => 'all_count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000623s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_role` [ RunTime:0.006395s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000237s ]
+[ sql ] [ SQL ] SELECT * FROM `game_role` LIMIT 0,20 [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000209s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:42:52+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_role.html
+[ info ] gamebeta.cn/admin/manager/list_role.html [运行时间：0.057085s][吞吐率：17.52req/s] [内存消耗：2,532.62kb] [文件加载：64]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_role.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_role[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_role.html [ array (
+  0 => 'all_count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000664s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_role` [ RunTime:0.006933s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SELECT * FROM `game_role` LIMIT 0,20 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000255s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:42:56+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/manager/del_mpower.html
+[ info ] gamebeta.cn/admin/manager/del_mpower.html [运行时间：0.040850s][吞吐率：24.48req/s] [内存消耗：2,246.96kb] [文件加载：60]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'del_mpower',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_role.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [2]session_start(): Cannot send session cache limiter - headers already sent[G:\www11\gamebeta01\thinkphp\library\think\Session.php:105]
+---------------------------------------------------------------
+[ 2017-05-11T08:42:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_role.html
+[ info ] gamebeta.cn/admin/manager/list_role.html [运行时间：0.049449s][吞吐率：20.22req/s] [内存消耗：2,401.55kb] [文件加载：62]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_role.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_role[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_role.html [ array (
+  0 => 'all_count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000747s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_role` [ RunTime:0.006170s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT * FROM `game_role` LIMIT 0,20 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000216s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:43:53+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_role.html
+[ info ] gamebeta.cn/admin/manager/list_role.html [运行时间：0.066905s][吞吐率：14.95req/s] [内存消耗：2,532.62kb] [文件加载：64]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_role.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_role[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_role.html [ array (
+  0 => 'all_count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000797s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_role` [ RunTime:0.007272s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SELECT * FROM `game_role` LIMIT 0,20 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000213s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:43:56+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/manager/del_mpower.html
+[ info ] gamebeta.cn/admin/manager/del_mpower.html [运行时间：0.044215s][吞吐率：22.62req/s] [内存消耗：2,272.49kb] [文件加载：58]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'del_mpower',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'content-length' => '21',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_role.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => 
+  array (
+    0 => '1',
+    1 => '2',
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->del_mpower[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000773s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_power` [ RunTime:0.005877s ]
+[ sql ] [ SQL ] SELECT * FROM `game_power` WHERE  `power_id` IN (1,2) [ RunTime:0.000440s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:43:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_role.html
+[ info ] gamebeta.cn/admin/manager/list_role.html [运行时间：0.047870s][吞吐率：20.89req/s] [内存消耗：2,401.55kb] [文件加载：62]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_role.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_role[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_role.html [ array (
+  0 => 'all_count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000779s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_role` [ RunTime:0.006147s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000344s ]
+[ sql ] [ SQL ] SELECT * FROM `game_role` LIMIT 0,20 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000265s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:46:30+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_power.html
+[ info ] gamebeta.cn/admin/manager/list_power.html [运行时间：0.061650s][吞吐率：16.22req/s] [内存消耗：2,537.42kb] [文件加载：64]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_power',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_role.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_power[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_power.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000771s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_power` [ RunTime:0.005810s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_power` LIMIT 1 [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SELECT * FROM `game_power` LIMIT 0,20 [ RunTime:0.000334s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:46:33+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/manager/del_mpower.html
+[ info ] gamebeta.cn/admin/manager/del_mpower.html [运行时间：0.045639s][吞吐率：21.91req/s] [内存消耗：2,336.96kb] [文件加载：61]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'del_mpower',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'content-length' => '34',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_power.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => 
+  array (
+    0 => '10',
+    1 => '11',
+    2 => '9',
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->del_mpower[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000657s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_power` [ RunTime:0.006040s ]
+[ sql ] [ SQL ] SELECT * FROM `game_power` WHERE  `power_id` IN (10,11,9) [ RunTime:0.000427s ]
+[ sql ] [ SQL ] DELETE FROM `game_power`    WHERE  `power_id` = 10 [ RunTime:0.000381s ]
+[ sql ] [ SQL ] DELETE FROM `game_power`    WHERE  `power_id` = 11 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] DELETE FROM `game_power`    WHERE  `power_id` = 9 [ RunTime:0.000215s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:46:38+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_power.html
+[ info ] gamebeta.cn/admin/manager/list_power.html [运行时间：0.043365s][吞吐率：23.06req/s] [内存消耗：2,400.83kb] [文件加载：62]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_power',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_power.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_power[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_power.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000663s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_power` [ RunTime:0.006900s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_power` LIMIT 1 [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SELECT * FROM `game_power` LIMIT 0,20 [ RunTime:0.000241s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:46:40+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/save_power.html
+[ info ] gamebeta.cn/admin/manager/save_power.html [运行时间：0.111182s][吞吐率：8.99req/s] [内存消耗：2,313.95kb] [文件加载：60]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'save_power',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_power.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->save_power[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\save_power.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000622s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_menu` [ RunTime:0.048503s ]
+[ sql ] [ SQL ] SELECT * FROM `game_menu` [ RunTime:0.000319s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:47:08+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/manager/save_power.html
+[ info ] gamebeta.cn/admin/manager/save_power.html [运行时间：0.334237s][吞吐率：2.99req/s] [内存消耗：2,325.78kb] [文件加载：60]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'save_power',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'content-length' => '121',
+  'referer' => 'http://gamebeta.cn/admin/manager/save_power.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  'power_name' => '权限节点查看',
+  'power_url' => 'Manager/list_power',
+  'power_menu' => '7',
+  'power_note' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->save_power[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002755s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_menu` [ RunTime:0.005836s ]
+[ sql ] [ SQL ] SELECT * FROM `game_menu` [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_power` [ RunTime:0.006075s ]
+[ sql ] [ SQL ] INSERT INTO `game_power` (`power_name` , `power_url` , `power_menu` , `power_note`) VALUES ('权限节点查看' , 'Manager/list_power' , 7 , '') [ RunTime:0.272349s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:47:11+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_power.html
+[ info ] gamebeta.cn/admin/manager/list_power.html [运行时间：0.044914s][吞吐率：22.26req/s] [内存消耗：2,402.52kb] [文件加载：62]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_power',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_power.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_power[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_power.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000598s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_power` [ RunTime:0.005681s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_power` LIMIT 1 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT * FROM `game_power` LIMIT 0,20 [ RunTime:0.000248s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:47:14+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_role.html
+[ info ] gamebeta.cn/admin/manager/list_role.html [运行时间：0.058657s][吞吐率：17.05req/s] [内存消耗：2,532.28kb] [文件加载：64]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_power.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_role[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_role.html [ array (
+  0 => 'all_count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000840s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_role` [ RunTime:0.005937s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT * FROM `game_role` LIMIT 0,20 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000244s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:47:16+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/edit_role/id/1.html
+[ info ] gamebeta.cn/admin/manager/edit_role/id/1.html [运行时间：0.069651s][吞吐率：14.36req/s] [内存消耗：2,285.21kb] [文件加载：58]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'edit_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_role.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->edit_role[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\edit_role.html [ array (
+  0 => 'powerlist',
+  1 => 'menulist',
+  2 => 'role',
+  3 => 'row',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000754s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_power` [ RunTime:0.005980s ]
+[ sql ] [ SQL ] SELECT * FROM `game_power` [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_menu` [ RunTime:0.008702s ]
+[ sql ] [ SQL ] SELECT * FROM `game_menu` [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_role` [ RunTime:0.006322s ]
+[ sql ] [ SQL ] SELECT * FROM `game_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SELECT * FROM `game_power` WHERE  `power_id` = 1 LIMIT 1 [ RunTime:0.000294s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:47:24+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/manager/del_mpower.html
+[ info ] gamebeta.cn/admin/manager/del_mpower.html [运行时间：0.041197s][吞吐率：24.27req/s] [内存消耗：2,272.49kb] [文件加载：58]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'del_mpower',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'content-length' => '21',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_role.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => 
+  array (
+    0 => '1',
+    1 => '2',
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->del_mpower[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000730s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_power` [ RunTime:0.005956s ]
+[ sql ] [ SQL ] SELECT * FROM `game_power` WHERE  `power_id` IN (1,2) [ RunTime:0.000403s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:48:46+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_role.html
+[ info ] gamebeta.cn/admin/manager/list_role.html [运行时间：0.056530s][吞吐率：17.69req/s] [内存消耗：2,532.61kb] [文件加载：64]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_power.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_role[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_role.html [ array (
+  0 => 'all_count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000691s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_role` [ RunTime:0.007956s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SELECT * FROM `game_role` LIMIT 0,20 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000217s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:48:51+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_role.html
+[ info ] gamebeta.cn/admin/manager/list_role.html [运行时间：0.056175s][吞吐率：17.80req/s] [内存消耗：2,401.85kb] [文件加载：62]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_power.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_role[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_role.html [ array (
+  0 => 'all_count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000623s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_role` [ RunTime:0.006405s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SELECT * FROM `game_role` LIMIT 0,20 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000150s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:48:52+08:00 ] 127.0.0.1 127.0.0.1 GET /static/lib/jquery/1.9.1/jquery.min.map
+[ info ] gamebeta.cn/static/lib/jquery/1.9.1/jquery.min.map [运行时间：0.022331s][吞吐率：44.78req/s] [内存消耗：1,124.76kb] [文件加载：40]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'lib',
+    2 => 'jquery',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  0 => 'jquery.min.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T08:51:16+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_role.html
+[ info ] gamebeta.cn/admin/manager/list_role.html [运行时间：0.075483s][吞吐率：13.25req/s] [内存消耗：2,532.58kb] [文件加载：64]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_power.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_role[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_role.html [ array (
+  0 => 'all_count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010686s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_role` [ RunTime:0.006260s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT * FROM `game_role` LIMIT 0,20 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000212s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:51:17+08:00 ] 127.0.0.1 127.0.0.1 GET /static/lib/jquery/1.9.1/jquery.min.map
+[ info ] gamebeta.cn/static/lib/jquery/1.9.1/jquery.min.map [运行时间：0.023200s][吞吐率：43.10req/s] [内存消耗：1,124.76kb] [文件加载：40]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'lib',
+    2 => 'jquery',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  0 => 'jquery.min.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T08:51:21+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/manager/del_mpower.html
+[ info ] gamebeta.cn/admin/manager/del_mpower.html [运行时间：0.042116s][吞吐率：23.74req/s] [内存消耗：2,272.49kb] [文件加载：58]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'del_mpower',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'content-length' => '21',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_role.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => 
+  array (
+    0 => '1',
+    1 => '2',
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->del_mpower[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000670s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_power` [ RunTime:0.006123s ]
+[ sql ] [ SQL ] SELECT * FROM `game_power` WHERE  `power_id` IN (1,2) [ RunTime:0.000347s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:52:57+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_role.html
+[ info ] gamebeta.cn/admin/manager/list_role.html [运行时间：0.059232s][吞吐率：16.88req/s] [内存消耗：2,532.81kb] [文件加载：64]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_power.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_role[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_role.html [ array (
+  0 => 'all_count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000800s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_role` [ RunTime:0.007297s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SELECT * FROM `game_role` LIMIT 0,20 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000230s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:52:58+08:00 ] 127.0.0.1 127.0.0.1 GET /static/lib/jquery/1.9.1/jquery.min.map
+[ info ] gamebeta.cn/static/lib/jquery/1.9.1/jquery.min.map [运行时间：0.024437s][吞吐率：40.92req/s] [内存消耗：1,124.76kb] [文件加载：40]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'lib',
+    2 => 'jquery',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  0 => 'jquery.min.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T08:53:02+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/manager/del_mpower.html
+[ info ] gamebeta.cn/admin/manager/del_mpower.html [运行时间：0.040294s][吞吐率：24.82req/s] [内存消耗：2,272.75kb] [文件加载：58]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'del_mpower',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'content-length' => '21',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_role.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => 
+  array (
+    0 => '1',
+    1 => '2',
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->del_mpower[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000788s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_power` [ RunTime:0.006017s ]
+[ sql ] [ SQL ] SELECT * FROM `game_power` WHERE  `power_id` IN (1,2) [ RunTime:0.000432s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:53:40+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_role.html
+[ info ] gamebeta.cn/admin/manager/list_role.html [运行时间：0.059087s][吞吐率：16.92req/s] [内存消耗：2,532.59kb] [文件加载：64]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_power.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_role[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_role.html [ array (
+  0 => 'all_count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000653s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_role` [ RunTime:0.006836s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SELECT * FROM `game_role` LIMIT 0,20 [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000260s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:53:41+08:00 ] 127.0.0.1 127.0.0.1 GET /static/lib/jquery/1.9.1/jquery.min.map
+[ info ] gamebeta.cn/static/lib/jquery/1.9.1/jquery.min.map [运行时间：0.026580s][吞吐率：37.62req/s] [内存消耗：1,124.76kb] [文件加载：40]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'lib',
+    2 => 'jquery',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  0 => 'jquery.min.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T08:53:44+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/manager/del_role.html
+[ info ] gamebeta.cn/admin/manager/del_role.html [运行时间：0.057761s][吞吐率：17.31req/s] [内存消耗：2,335.74kb] [文件加载：61]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'del_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'content-length' => '21',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_role.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => 
+  array (
+    0 => '1',
+    1 => '2',
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->del_role[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000665s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_role` [ RunTime:0.007106s ]
+[ sql ] [ SQL ] SELECT * FROM `game_role` WHERE  `role_id` IN (1,2) [ RunTime:0.000395s ]
+[ sql ] [ SQL ] DELETE FROM `game_role`    WHERE  `role_id` = 1 [ RunTime:0.000539s ]
+[ sql ] [ SQL ] DELETE FROM `game_role`    WHERE  `role_id` = 2 [ RunTime:0.000577s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:53:47+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_role.html
+[ info ] gamebeta.cn/admin/manager/list_role.html [运行时间：0.052660s][吞吐率：18.99req/s] [内存消耗：2,399.27kb] [文件加载：62]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_role.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_role[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_role.html [ array (
+  0 => 'all_count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000638s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_role` [ RunTime:0.006351s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT * FROM `game_role` LIMIT 0,20 [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000241s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:53:48+08:00 ] 127.0.0.1 127.0.0.1 GET /static/lib/jquery/1.9.1/jquery.min.map
+[ info ] gamebeta.cn/static/lib/jquery/1.9.1/jquery.min.map [运行时间：0.026604s][吞吐率：37.59req/s] [内存消耗：1,124.76kb] [文件加载：40]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'lib',
+    2 => 'jquery',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  0 => 'jquery.min.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T08:53:53+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_power.html
+[ info ] gamebeta.cn/admin/manager/list_power.html [运行时间：0.059869s][吞吐率：16.70req/s] [内存消耗：2,402.52kb] [文件加载：62]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_power',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_role.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_power[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_power.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000798s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_power` [ RunTime:0.009135s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_power` LIMIT 1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT * FROM `game_power` LIMIT 0,20 [ RunTime:0.000324s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:53:54+08:00 ] 127.0.0.1 127.0.0.1 GET /static/lib/jquery/1.9.1/jquery.min.map
+[ info ] gamebeta.cn/static/lib/jquery/1.9.1/jquery.min.map [运行时间：0.026436s][吞吐率：37.83req/s] [内存消耗：1,124.76kb] [文件加载：40]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'lib',
+    2 => 'jquery',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  0 => 'jquery.min.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T08:53:56+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/save_power.html
+[ info ] gamebeta.cn/admin/manager/save_power.html [运行时间：0.062141s][吞吐率：16.09req/s] [内存消耗：2,313.95kb] [文件加载：60]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'save_power',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_power.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->save_power[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\save_power.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000807s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_menu` [ RunTime:0.008995s ]
+[ sql ] [ SQL ] SELECT * FROM `game_menu` [ RunTime:0.000425s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:54:38+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/manager/save_power.html
+[ info ] gamebeta.cn/admin/manager/save_power.html [运行时间：0.050267s][吞吐率：19.89req/s] [内存消耗：2,325.77kb] [文件加载：60]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'save_power',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'content-length' => '120',
+  'referer' => 'http://gamebeta.cn/admin/manager/save_power.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  'power_name' => '添加权限节点',
+  'power_url' => 'Manage/save_power',
+  'power_menu' => '7',
+  'power_note' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->save_power[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000825s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_menu` [ RunTime:0.005980s ]
+[ sql ] [ SQL ] SELECT * FROM `game_menu` [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_power` [ RunTime:0.005839s ]
+[ sql ] [ SQL ] INSERT INTO `game_power` (`power_name` , `power_url` , `power_menu` , `power_note`) VALUES ('添加权限节点' , 'Manage/save_power' , 7 , '') [ RunTime:0.000404s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:54:41+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_power.html
+[ info ] gamebeta.cn/admin/manager/list_power.html [运行时间：0.055876s][吞吐率：17.90req/s] [内存消耗：2,403.80kb] [文件加载：62]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_power',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_power.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_power[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_power.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000742s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_power` [ RunTime:0.006500s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_power` LIMIT 1 [ RunTime:0.000488s ]
+[ sql ] [ SQL ] SELECT * FROM `game_power` LIMIT 0,20 [ RunTime:0.000401s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:54:41+08:00 ] 127.0.0.1 127.0.0.1 GET /static/lib/jquery/1.9.1/jquery.min.map
+[ info ] gamebeta.cn/static/lib/jquery/1.9.1/jquery.min.map [运行时间：0.022923s][吞吐率：43.62req/s] [内存消耗：1,124.76kb] [文件加载：40]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'lib',
+    2 => 'jquery',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  0 => 'jquery.min.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T08:54:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/save_power.html
+[ info ] gamebeta.cn/admin/manager/save_power.html [运行时间：0.052455s][吞吐率：19.06req/s] [内存消耗：2,313.95kb] [文件加载：60]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'save_power',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_power.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->save_power[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\save_power.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001071s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_menu` [ RunTime:0.006436s ]
+[ sql ] [ SQL ] SELECT * FROM `game_menu` [ RunTime:0.000330s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:55:10+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/manager/save_power.html
+[ info ] gamebeta.cn/admin/manager/save_power.html [运行时间：0.076028s][吞吐率：13.15req/s] [内存消耗：2,325.72kb] [文件加载：60]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'save_power',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'content-length' => '120',
+  'referer' => 'http://gamebeta.cn/admin/manager/save_power.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  'power_name' => '修改权限节点',
+  'power_url' => 'Manage/edit_power',
+  'power_menu' => '7',
+  'power_note' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->save_power[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012805s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_menu` [ RunTime:0.007662s ]
+[ sql ] [ SQL ] SELECT * FROM `game_menu` [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_power` [ RunTime:0.008071s ]
+[ sql ] [ SQL ] INSERT INTO `game_power` (`power_name` , `power_url` , `power_menu` , `power_note`) VALUES ('修改权限节点' , 'Manage/edit_power' , 7 , '') [ RunTime:0.000458s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:55:37+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/save_power.html
+[ info ] gamebeta.cn/admin/manager/save_power.html [运行时间：0.049272s][吞吐率：20.30req/s] [内存消耗：2,313.95kb] [文件加载：60]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'save_power',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_power.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->save_power[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\save_power.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000797s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_menu` [ RunTime:0.009007s ]
+[ sql ] [ SQL ] SELECT * FROM `game_menu` [ RunTime:0.000425s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:55:40+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_power.html
+[ info ] gamebeta.cn/admin/manager/list_power.html [运行时间：0.064235s][吞吐率：15.57req/s] [内存消耗：2,405.07kb] [文件加载：62]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_power',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_power.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_power[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_power.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010201s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_power` [ RunTime:0.009212s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_power` LIMIT 1 [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SELECT * FROM `game_power` LIMIT 0,20 [ RunTime:0.000483s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:55:41+08:00 ] 127.0.0.1 127.0.0.1 GET /static/lib/jquery/1.9.1/jquery.min.map
+[ info ] gamebeta.cn/static/lib/jquery/1.9.1/jquery.min.map [运行时间：0.021757s][吞吐率：45.96req/s] [内存消耗：1,124.76kb] [文件加载：40]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'lib',
+    2 => 'jquery',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  0 => 'jquery.min.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T08:55:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/save_power.html
+[ info ] gamebeta.cn/admin/manager/save_power.html [运行时间：0.050036s][吞吐率：19.99req/s] [内存消耗：2,313.95kb] [文件加载：60]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'save_power',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_power.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->save_power[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\save_power.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000612s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_menu` [ RunTime:0.007045s ]
+[ sql ] [ SQL ] SELECT * FROM `game_menu` [ RunTime:0.000749s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:56:34+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/manager/save_power.html
+[ info ] gamebeta.cn/admin/manager/save_power.html [运行时间：0.050559s][吞吐率：19.78req/s] [内存消耗：2,325.80kb] [文件加载：60]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'save_power',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'content-length' => '102',
+  'referer' => 'http://gamebeta.cn/admin/manager/save_power.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  'power_name' => '角色列表',
+  'power_url' => 'Manager/list_role',
+  'power_menu' => '6',
+  'power_note' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->save_power[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000731s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_menu` [ RunTime:0.005838s ]
+[ sql ] [ SQL ] SELECT * FROM `game_menu` [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_power` [ RunTime:0.006106s ]
+[ sql ] [ SQL ] INSERT INTO `game_power` (`power_name` , `power_url` , `power_menu` , `power_note`) VALUES ('角色列表' , 'Manager/list_role' , 6 , '') [ RunTime:0.000366s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:56:36+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/save_power.html
+[ info ] gamebeta.cn/admin/manager/save_power.html [运行时间：0.055542s][吞吐率：18.00req/s] [内存消耗：2,314.00kb] [文件加载：60]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'save_power',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_power.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->save_power[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\save_power.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000672s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_menu` [ RunTime:0.006213s ]
+[ sql ] [ SQL ] SELECT * FROM `game_menu` [ RunTime:0.000339s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:56:51+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/manager/save_power.html
+[ info ] gamebeta.cn/admin/manager/save_power.html [运行时间：0.052862s][吞吐率：18.92req/s] [内存消耗：2,325.78kb] [文件加载：60]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'save_power',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'content-length' => '101',
+  'referer' => 'http://gamebeta.cn/admin/manager/save_power.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  'power_name' => '添加角色',
+  'power_url' => 'Manager/save_rol',
+  'power_menu' => '0',
+  'power_note' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->save_power[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000696s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_menu` [ RunTime:0.005642s ]
+[ sql ] [ SQL ] SELECT * FROM `game_menu` [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_power` [ RunTime:0.006416s ]
+[ sql ] [ SQL ] INSERT INTO `game_power` (`power_name` , `power_url` , `power_menu` , `power_note`) VALUES ('添加角色' , 'Manager/save_rol' , 0 , '') [ RunTime:0.000341s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:56:54+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_power.html
+[ info ] gamebeta.cn/admin/manager/list_power.html [运行时间：0.052553s][吞吐率：19.03req/s] [内存消耗：2,407.66kb] [文件加载：62]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_power',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_power.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_power[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_power.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000616s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_power` [ RunTime:0.008451s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_power` LIMIT 1 [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SELECT * FROM `game_power` LIMIT 0,20 [ RunTime:0.000445s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:56:55+08:00 ] 127.0.0.1 127.0.0.1 GET /static/lib/jquery/1.9.1/jquery.min.map
+[ info ] gamebeta.cn/static/lib/jquery/1.9.1/jquery.min.map [运行时间：0.025245s][吞吐率：39.61req/s] [内存消耗：1,124.76kb] [文件加载：40]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'lib',
+    2 => 'jquery',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  0 => 'jquery.min.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T08:56:56+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/edit_power/id/16.html
+[ info ] gamebeta.cn/admin/manager/edit_power/id/16.html [运行时间：0.146303s][吞吐率：6.84req/s] [内存消耗：2,321.99kb] [文件加载：60]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'edit_power',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_power.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => '16',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->edit_power[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\edit_power.html [ array (
+  0 => 'list',
+  1 => 'row',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000764s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_menu` [ RunTime:0.009647s ]
+[ sql ] [ SQL ] SELECT * FROM `game_menu` [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_power` [ RunTime:0.007586s ]
+[ sql ] [ SQL ] SELECT * FROM `game_power` WHERE  `power_id` = 16 LIMIT 1 [ RunTime:0.000398s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:57:01+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/manager/edit_power/id/16.html
+[ info ] gamebeta.cn/admin/manager/edit_power/id/16.html [运行时间：0.061378s][吞吐率：16.29req/s] [内存消耗：2,392.50kb] [文件加载：63]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'edit_power',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'content-length' => '102',
+  'referer' => 'http://gamebeta.cn/admin/manager/edit_power/id/16.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  'power_name' => '添加角色',
+  'power_url' => 'Manager/save_role',
+  'power_menu' => '0',
+  'power_note' => '',
+  'id' => '16',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->edit_power[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000694s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_menu` [ RunTime:0.006647s ]
+[ sql ] [ SQL ] SELECT * FROM `game_menu` [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_power` [ RunTime:0.006723s ]
+[ sql ] [ SQL ] UPDATE `game_power`  SET `power_name`='添加角色',`power_url`='Manager/save_role',`power_menu`=0,`power_note`=''  WHERE  `power_id` = 16 [ RunTime:0.000497s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:57:03+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/edit_power/id/16.html
+[ info ] gamebeta.cn/admin/manager/edit_power/id/16.html [运行时间：0.065684s][吞吐率：15.22req/s] [内存消耗：2,321.99kb] [文件加载：60]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'edit_power',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_power.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => '16',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->edit_power[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\edit_power.html [ array (
+  0 => 'list',
+  1 => 'row',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000793s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_menu` [ RunTime:0.008083s ]
+[ sql ] [ SQL ] SELECT * FROM `game_menu` [ RunTime:0.000445s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_power` [ RunTime:0.007547s ]
+[ sql ] [ SQL ] SELECT * FROM `game_power` WHERE  `power_id` = 16 LIMIT 1 [ RunTime:0.000422s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:57:07+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/manager/edit_power/id/16.html
+[ info ] gamebeta.cn/admin/manager/edit_power/id/16.html [运行时间：0.049287s][吞吐率：20.29req/s] [内存消耗：2,392.50kb] [文件加载：63]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'edit_power',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'content-length' => '102',
+  'referer' => 'http://gamebeta.cn/admin/manager/edit_power/id/16.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  'power_name' => '添加角色',
+  'power_url' => 'Manager/save_role',
+  'power_menu' => '6',
+  'power_note' => '',
+  'id' => '16',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->edit_power[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000664s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_menu` [ RunTime:0.005894s ]
+[ sql ] [ SQL ] SELECT * FROM `game_menu` [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_power` [ RunTime:0.005719s ]
+[ sql ] [ SQL ] UPDATE `game_power`  SET `power_name`='添加角色',`power_url`='Manager/save_role',`power_menu`=6,`power_note`=''  WHERE  `power_id` = 16 [ RunTime:0.000431s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:57:10+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/save_power.html
+[ info ] gamebeta.cn/admin/manager/save_power.html [运行时间：0.056933s][吞吐率：17.56req/s] [内存消耗：2,314.00kb] [文件加载：60]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'save_power',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_power.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->save_power[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\save_power.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000755s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_menu` [ RunTime:0.008276s ]
+[ sql ] [ SQL ] SELECT * FROM `game_menu` [ RunTime:0.000359s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:57:49+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/manager/save_power.html
+[ info ] gamebeta.cn/admin/manager/save_power.html [运行时间：0.053602s][吞吐率：18.66req/s] [内存消耗：2,325.80kb] [文件加载：60]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'save_power',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'content-length' => '102',
+  'referer' => 'http://gamebeta.cn/admin/manager/save_power.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  'power_name' => '修改角色',
+  'power_url' => 'Manager/edit_role',
+  'power_menu' => '6',
+  'power_note' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->save_power[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000717s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_menu` [ RunTime:0.006008s ]
+[ sql ] [ SQL ] SELECT * FROM `game_menu` [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_power` [ RunTime:0.006078s ]
+[ sql ] [ SQL ] INSERT INTO `game_power` (`power_name` , `power_url` , `power_menu` , `power_note`) VALUES ('修改角色' , 'Manager/edit_role' , 6 , '') [ RunTime:0.000396s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:57:56+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/edit_power/id/14.html
+[ info ] gamebeta.cn/admin/manager/edit_power/id/14.html [运行时间：0.067313s][吞吐率：14.86req/s] [内存消耗：2,322.01kb] [文件加载：60]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'edit_power',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_power.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => '14',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->edit_power[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\edit_power.html [ array (
+  0 => 'list',
+  1 => 'row',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000608s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_menu` [ RunTime:0.006922s ]
+[ sql ] [ SQL ] SELECT * FROM `game_menu` [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_power` [ RunTime:0.007697s ]
+[ sql ] [ SQL ] SELECT * FROM `game_power` WHERE  `power_id` = 14 LIMIT 1 [ RunTime:0.000382s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:58:00+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/manager/edit_power/id/14.html
+[ info ] gamebeta.cn/admin/manager/edit_power/id/14.html [运行时间：0.068463s][吞吐率：14.61req/s] [内存消耗：2,392.48kb] [文件加载：63]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'edit_power',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'content-length' => '121',
+  'referer' => 'http://gamebeta.cn/admin/manager/edit_power/id/14.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  'power_name' => '修改权限节点',
+  'power_url' => 'Manager/edit_power',
+  'power_menu' => '7',
+  'power_note' => '',
+  'id' => '14',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->edit_power[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010370s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_menu` [ RunTime:0.006182s ]
+[ sql ] [ SQL ] SELECT * FROM `game_menu` [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_power` [ RunTime:0.008693s ]
+[ sql ] [ SQL ] UPDATE `game_power`  SET `power_name`='修改权限节点',`power_url`='Manager/edit_power',`power_menu`=7,`power_note`=''  WHERE  `power_id` = 14 [ RunTime:0.000430s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:58:02+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/edit_power/id/13.html
+[ info ] gamebeta.cn/admin/manager/edit_power/id/13.html [运行时间：0.067980s][吞吐率：14.71req/s] [内存消耗：2,322.01kb] [文件加载：60]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'edit_power',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_power.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => '13',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->edit_power[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\edit_power.html [ array (
+  0 => 'list',
+  1 => 'row',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001208s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_menu` [ RunTime:0.008149s ]
+[ sql ] [ SQL ] SELECT * FROM `game_menu` [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_power` [ RunTime:0.008521s ]
+[ sql ] [ SQL ] SELECT * FROM `game_power` WHERE  `power_id` = 13 LIMIT 1 [ RunTime:0.000401s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:58:04+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/manager/edit_power/id/13.html
+[ info ] gamebeta.cn/admin/manager/edit_power/id/13.html [运行时间：0.053891s][吞吐率：18.56req/s] [内存消耗：2,392.48kb] [文件加载：63]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'edit_power',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'content-length' => '121',
+  'referer' => 'http://gamebeta.cn/admin/manager/edit_power/id/13.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  'power_name' => '添加权限节点',
+  'power_url' => 'Manager/save_power',
+  'power_menu' => '7',
+  'power_note' => '',
+  'id' => '13',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->edit_power[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000634s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_menu` [ RunTime:0.006941s ]
+[ sql ] [ SQL ] SELECT * FROM `game_menu` [ RunTime:0.000347s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_power` [ RunTime:0.006213s ]
+[ sql ] [ SQL ] UPDATE `game_power`  SET `power_name`='添加权限节点',`power_url`='Manager/save_power',`power_menu`=7,`power_note`=''  WHERE  `power_id` = 13 [ RunTime:0.000429s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:58:07+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_power.html
+[ info ] gamebeta.cn/admin/manager/list_power.html [运行时间：0.055876s][吞吐率：17.90req/s] [内存消耗：2,424.91kb] [文件加载：62]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_power',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_power.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_power[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_power.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000764s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_power` [ RunTime:0.007680s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_power` LIMIT 1 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SELECT * FROM `game_power` LIMIT 0,20 [ RunTime:0.000287s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:58:08+08:00 ] 127.0.0.1 127.0.0.1 GET /static/lib/jquery/1.9.1/jquery.min.map
+[ info ] gamebeta.cn/static/lib/jquery/1.9.1/jquery.min.map [运行时间：0.026089s][吞吐率：38.33req/s] [内存消耗：1,124.76kb] [文件加载：40]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'lib',
+    2 => 'jquery',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  0 => 'jquery.min.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T08:58:21+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_role.html
+[ info ] gamebeta.cn/admin/manager/list_role.html [运行时间：0.048034s][吞吐率：20.82req/s] [内存消耗：2,399.35kb] [文件加载：62]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_power.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_role[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_role.html [ array (
+  0 => 'all_count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000789s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_role` [ RunTime:0.007034s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SELECT * FROM `game_role` LIMIT 0,20 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000240s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:58:21+08:00 ] 127.0.0.1 127.0.0.1 GET /static/lib/jquery/1.9.1/jquery.min.map
+[ info ] gamebeta.cn/static/lib/jquery/1.9.1/jquery.min.map [运行时间：0.021800s][吞吐率：45.87req/s] [内存消耗：1,124.76kb] [文件加载：40]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'lib',
+    2 => 'jquery',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  0 => 'jquery.min.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T08:58:25+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/save_role.html
+[ info ] gamebeta.cn/admin/manager/save_role.html [运行时间：0.095071s][吞吐率：10.52req/s] [内存消耗：2,406.77kb] [文件加载：60]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'save_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_role.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->save_role[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\save_role.html [ array (
+  0 => 'powerlist',
+  1 => 'menulist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000785s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_power` [ RunTime:0.007332s ]
+[ sql ] [ SQL ] SELECT * FROM `game_power` [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_menu` [ RunTime:0.005771s ]
+[ sql ] [ SQL ] SELECT * FROM `game_menu` [ RunTime:0.000315s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:59:11+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_role.html
+[ info ] gamebeta.cn/admin/manager/list_role.html [运行时间：0.068615s][吞吐率：14.57req/s] [内存消耗：2,400.63kb] [文件加载：62]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_power.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_role[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_role.html [ array (
+  0 => 'all_count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000743s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_role` [ RunTime:0.008936s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `game_role` LIMIT 0,20 [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000288s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:59:12+08:00 ] 127.0.0.1 127.0.0.1 GET /static/lib/jquery/1.9.1/jquery.min.map
+[ info ] gamebeta.cn/static/lib/jquery/1.9.1/jquery.min.map [运行时间：0.025468s][吞吐率：39.27req/s] [内存消耗：1,124.76kb] [文件加载：40]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'lib',
+    2 => 'jquery',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  0 => 'jquery.min.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T08:59:20+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/save_role.html
+[ info ] gamebeta.cn/admin/manager/save_role.html [运行时间：0.063092s][吞吐率：15.85req/s] [内存消耗：2,281.86kb] [文件加载：58]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'save_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_role.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->save_role[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\save_role.html [ array (
+  0 => 'powerlist',
+  1 => 'menulist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000657s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_power` [ RunTime:0.006806s ]
+[ sql ] [ SQL ] SELECT * FROM `game_power` [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_menu` [ RunTime:0.007262s ]
+[ sql ] [ SQL ] SELECT * FROM `game_menu` [ RunTime:0.000321s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:59:38+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/manager/save_role.html
+[ info ] gamebeta.cn/admin/manager/save_role.html [运行时间：0.060055s][吞吐率：16.65req/s] [内存消耗：2,292.02kb] [文件加载：58]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'save_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'content-length' => '117',
+  'referer' => 'http://gamebeta.cn/admin/manager/save_role.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  'role_name' => '测试管理',
+  'role_note' => '',
+  'role_power' => 
+  array (
+    0 => '16',
+    1 => '15',
+    2 => '17',
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->save_role[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000834s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_power` [ RunTime:0.006119s ]
+[ sql ] [ SQL ] SELECT * FROM `game_power` [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_menu` [ RunTime:0.005737s ]
+[ sql ] [ SQL ] SELECT * FROM `game_menu` [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_role` [ RunTime:0.007308s ]
+[ sql ] [ SQL ] INSERT INTO `game_role` (`role_name` , `role_note` , `role_power`) VALUES ('测试管理' , '' , 'a:3:{i:0;s:2:\"16\";i:1;s:2:\"15\";i:2;s:2:\"17\";}') [ RunTime:0.000434s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:59:41+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_role.html
+[ info ] gamebeta.cn/admin/manager/list_role.html [运行时间：0.059877s][吞吐率：16.70req/s] [内存消耗：2,401.57kb] [文件加载：62]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_role.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_role[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_role.html [ array (
+  0 => 'all_count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009955s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_role` [ RunTime:0.007169s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000245s ]
+[ sql ] [ SQL ] SELECT * FROM `game_role` LIMIT 0,20 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000231s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:59:42+08:00 ] 127.0.0.1 127.0.0.1 GET /static/lib/jquery/1.9.1/jquery.min.map
+[ info ] gamebeta.cn/static/lib/jquery/1.9.1/jquery.min.map [运行时间：0.021674s][吞吐率：46.14req/s] [内存消耗：1,124.76kb] [文件加载：40]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'lib',
+    2 => 'jquery',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  0 => 'jquery.min.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T08:59:43+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/edit_role/id/4.html
+[ info ] gamebeta.cn/admin/manager/edit_role/id/4.html [运行时间：0.082390s][吞吐率：12.14req/s] [内存消耗：2,291.34kb] [文件加载：58]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'edit_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_role.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->edit_role[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\edit_role.html [ array (
+  0 => 'powerlist',
+  1 => 'menulist',
+  2 => 'role',
+  3 => 'row',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000729s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_power` [ RunTime:0.010590s ]
+[ sql ] [ SQL ] SELECT * FROM `game_power` [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_menu` [ RunTime:0.008142s ]
+[ sql ] [ SQL ] SELECT * FROM `game_menu` [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_role` [ RunTime:0.009308s ]
+[ sql ] [ SQL ] SELECT * FROM `game_role` WHERE  `role_id` = 4 LIMIT 1 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT * FROM `game_power` WHERE  `power_id` = 4 LIMIT 1 [ RunTime:0.000264s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:59:51+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/manager/edit_role/id/4.html
+[ info ] gamebeta.cn/admin/manager/edit_role/id/4.html [运行时间：0.066831s][吞吐率：14.96req/s] [内存消耗：2,362.61kb] [文件加载：61]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'edit_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'content-length' => '135',
+  'referer' => 'http://gamebeta.cn/admin/manager/edit_role/id/4.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  'role_name' => '测试角色管理',
+  'role_note' => '',
+  'role_power' => 
+  array (
+    0 => '16',
+    1 => '15',
+    2 => '17',
+  ),
+  'id' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->edit_role[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000675s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_power` [ RunTime:0.006257s ]
+[ sql ] [ SQL ] SELECT * FROM `game_power` [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_menu` [ RunTime:0.007337s ]
+[ sql ] [ SQL ] SELECT * FROM `game_menu` [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_role` [ RunTime:0.006454s ]
+[ sql ] [ SQL ] SELECT * FROM `game_role` WHERE  `role_id` = 4 LIMIT 1 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] UPDATE `game_role`  SET `role_name`='测试角色管理',`role_note`='',`role_power`='a:3:{i:0;s:2:\"16\";i:1;s:2:\"15\";i:2;s:2:\"17\";}'  WHERE  `role_id` = 4 [ RunTime:0.000389s ]
+---------------------------------------------------------------
+[ 2017-05-11T08:59:53+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/save_role.html
+[ info ] gamebeta.cn/admin/manager/save_role.html [运行时间：0.071929s][吞吐率：13.90req/s] [内存消耗：2,281.86kb] [文件加载：58]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'save_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_role.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->save_role[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\save_role.html [ array (
+  0 => 'powerlist',
+  1 => 'menulist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000630s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_power` [ RunTime:0.007468s ]
+[ sql ] [ SQL ] SELECT * FROM `game_power` [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_menu` [ RunTime:0.008102s ]
+[ sql ] [ SQL ] SELECT * FROM `game_menu` [ RunTime:0.000308s ]
+---------------------------------------------------------------
+[ 2017-05-11T09:00:02+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/manager/save_role.html
+[ info ] gamebeta.cn/admin/manager/save_role.html [运行时间：0.055229s][吞吐率：18.11req/s] [内存消耗：2,292.07kb] [文件加载：58]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'save_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'content-length' => '135',
+  'referer' => 'http://gamebeta.cn/admin/manager/save_role.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  'role_name' => '测试权限管理',
+  'role_note' => '',
+  'role_power' => 
+  array (
+    0 => '12',
+    1 => '13',
+    2 => '14',
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->save_role[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000799s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_power` [ RunTime:0.006123s ]
+[ sql ] [ SQL ] SELECT * FROM `game_power` [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_menu` [ RunTime:0.006279s ]
+[ sql ] [ SQL ] SELECT * FROM `game_menu` [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_role` [ RunTime:0.006035s ]
+[ sql ] [ SQL ] INSERT INTO `game_role` (`role_name` , `role_note` , `role_power`) VALUES ('测试权限管理' , '' , 'a:3:{i:0;s:2:\"12\";i:1;s:2:\"13\";i:2;s:2:\"14\";}') [ RunTime:0.000348s ]
+---------------------------------------------------------------
+[ 2017-05-11T09:00:05+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_role.html
+[ info ] gamebeta.cn/admin/manager/list_role.html [运行时间：0.062821s][吞吐率：15.92req/s] [内存消耗：2,402.59kb] [文件加载：62]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_role.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_role[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_role.html [ array (
+  0 => 'all_count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010379s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_role` [ RunTime:0.007413s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SELECT * FROM `game_role` LIMIT 0,20 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000244s ]
+---------------------------------------------------------------
+[ 2017-05-11T09:00:06+08:00 ] 127.0.0.1 127.0.0.1 GET /static/lib/jquery/1.9.1/jquery.min.map
+[ info ] gamebeta.cn/static/lib/jquery/1.9.1/jquery.min.map [运行时间：0.023760s][吞吐率：42.09req/s] [内存消耗：1,124.76kb] [文件加载：40]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'lib',
+    2 => 'jquery',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  0 => 'jquery.min.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T09:08:24+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_role.html
+[ info ] gamebeta.cn/admin/manager/list_role.html [运行时间：0.086296s][吞吐率：11.59req/s] [内存消耗：2,071.05kb] [文件加载：56]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_role.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [4096]Argument 1 passed to app\admin\controller\Manager::__construct() must be an instance of app\admin\model\GamePower, none given, called in G:\www11\gamebeta01\thinkphp\library\think\App.php on line 272 and defined[G:\www11\gamebeta01\application\admin\controller\Manager.php:15]
+---------------------------------------------------------------
+[ 2017-05-11T09:08:52+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_role.html
+[ info ] gamebeta.cn/admin/manager/list_role.html [运行时间：0.045681s][吞吐率：21.89req/s] [内存消耗：2,058.66kb] [文件加载：54]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_role.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]Class app\admin\controller\GameManager does not exist[G:\www11\gamebeta01\thinkphp\library\think\App.php:259]
+---------------------------------------------------------------
+[ 2017-05-11T09:09:21+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_role.html
+[ info ] gamebeta.cn/admin/manager/list_role.html [运行时间：0.075314s][吞吐率：13.28req/s] [内存消耗：2,434.68kb] [文件加载：63]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_role.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_role[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_role.html [ array (
+  0 => 'all_count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012777s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_role` [ RunTime:0.008195s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SELECT * FROM `game_role` LIMIT 0,20 [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000220s ]
+---------------------------------------------------------------
+[ 2017-05-11T09:09:21+08:00 ] 127.0.0.1 127.0.0.1 GET /static/lib/jquery/1.9.1/jquery.min.map
+[ info ] gamebeta.cn/static/lib/jquery/1.9.1/jquery.min.map [运行时间：0.021137s][吞吐率：47.31req/s] [内存消耗：1,124.76kb] [文件加载：40]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'lib',
+    2 => 'jquery',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  0 => 'jquery.min.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T09:09:25+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_manager.html
+[ info ] gamebeta.cn/admin/manager/list_manager.html [运行时间：0.153529s][吞吐率：6.51req/s] [内存消耗：2,568.18kb] [文件加载：67]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_role.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_manager[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_manager.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000664s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_manager` [ RunTime:0.006103s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_manager` LIMIT 1 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] SELECT * FROM `game_manager` LIMIT 0,20 [ RunTime:0.000346s ]
+[ error ] [4]语法错误: unexpected '(', expecting ',' or ';'[G:\www11\gamebeta01\runtime\temp\10030496077dae23e7742188b1948e4f.php:196]
+---------------------------------------------------------------
+[ 2017-05-11T09:29:58+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_manager.html
+[ info ] gamebeta.cn/admin/manager/list_manager.html [运行时间：0.071648s][吞吐率：13.96req/s] [内存消耗：2,568.50kb] [文件加载：67]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_role.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_manager[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_manager.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002986s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_manager` [ RunTime:0.006643s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_manager` LIMIT 1 [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SELECT * FROM `game_manager` LIMIT 0,20 [ RunTime:0.000210s ]
+[ error ] [4]语法错误: unexpected '(', expecting ',' or ';'[G:\www11\gamebeta01\runtime\temp\10030496077dae23e7742188b1948e4f.php:196]
+---------------------------------------------------------------
+[ 2017-05-11T10:45:20+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_manager.html
+[ info ] gamebeta.cn/admin/manager/list_manager.html [运行时间：0.106241s][吞吐率：9.41req/s] [内存消耗：2,434.95kb] [文件加载：65]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=70dtj8ncqdo88utnh84slcohl6',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_role.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_manager[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_manager.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003367s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_manager` [ RunTime:0.009310s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_manager` LIMIT 1 [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SELECT * FROM `game_manager` LIMIT 0,20 [ RunTime:0.000308s ]
+[ error ] [4]语法错误: unexpected '(', expecting ',' or ';'[G:\www11\gamebeta01\runtime\temp\10030496077dae23e7742188b1948e4f.php:196]
+---------------------------------------------------------------
+[ 2017-05-11T23:08:11+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] gamebeta.cn/ [运行时间：0.660627s][吞吐率：1.51req/s] [内存消耗：1,098.44kb] [文件加载：38]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\www11\gamebeta01\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T23:08:16+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ info ] gamebeta.cn/admin [运行时间：0.263171s][吞吐率：3.80req/s] [内存消耗：1,394.23kb] [文件加载：48]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; pgv_si=s7541063680',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T23:08:16+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/init/index.html
+[ info ] gamebeta.cn/admin/init/index.html [运行时间：0.443865s][吞吐率：2.25req/s] [内存消耗：2,177.97kb] [文件加载：55]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'init',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; pgv_si=s7541063680; PHPSESSID=g1n2sps4d2is0ksvegb1o8ob63',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Init->index[ G:\www11\gamebeta01\application\admin\controller\Init.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\init\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T23:08:26+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/init/index.html
+[ info ] gamebeta.cn/admin/init/index.html [运行时间：0.226002s][吞吐率：4.42req/s] [内存消耗：2,192.12kb] [文件加载：55]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'init',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; pgv_si=s7541063680; PHPSESSID=g1n2sps4d2is0ksvegb1o8ob63',
+  'content-length' => '24',
+  'referer' => 'http://gamebeta.cn/admin/init/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'admin',
+  'password' => '123123',
+)
+[ info ] [ RUN ] app\admin\controller\Init->index[ G:\www11\gamebeta01\application\admin\controller\Init.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003761s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_manager` [ RunTime:0.130980s ]
+[ sql ] [ SQL ] SELECT * FROM `game_manager` WHERE  `manager_account` = 'admin' LIMIT 1 [ RunTime:0.002560s ]
+---------------------------------------------------------------
+[ 2017-05-11T23:08:29+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] gamebeta.cn/admin/index/index.html [运行时间：0.189434s][吞吐率：5.28req/s] [内存消耗：1,381.13kb] [文件加载：47]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; pgv_si=s7541063680; PHPSESSID=g1n2sps4d2is0ksvegb1o8ob63',
+  'referer' => 'http://gamebeta.cn/admin/init/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ G:\www11\gamebeta01\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T23:08:30+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/favicon.ico
+[ info ] gamebeta.cn/admin/index/favicon.ico [运行时间：0.395654s][吞吐率：2.53req/s] [内存消耗：1,355.75kb] [文件加载：48]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'favicon.ico',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; pgv_si=s7541063680; PHPSESSID=g1n2sps4d2is0ksvegb1o8ob63',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T23:08:34+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_manager.html
+[ info ] gamebeta.cn/admin/manager/list_manager.html [运行时间：0.722404s][吞吐率：1.38req/s] [内存消耗：2,434.73kb] [文件加载：65]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; pgv_si=s7541063680; PHPSESSID=g1n2sps4d2is0ksvegb1o8ob63',
+  'referer' => 'http://gamebeta.cn/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_manager[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_manager.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001992s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_manager` [ RunTime:0.024286s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_manager` LIMIT 1 [ RunTime:0.001185s ]
+[ sql ] [ SQL ] SELECT * FROM `game_manager` LIMIT 0,20 [ RunTime:0.001060s ]
+[ error ] [4]语法错误: unexpected '(', expecting ',' or ';'[G:\www11\gamebeta01\runtime\temp\10030496077dae23e7742188b1948e4f.php:196]
+---------------------------------------------------------------
+[ 2017-05-11T23:10:53+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_manager.html
+[ info ] gamebeta.cn/admin/manager/list_manager.html [运行时间：0.170886s][吞吐率：5.85req/s] [内存消耗：2,568.25kb] [文件加载：67]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; pgv_si=s7541063680; PHPSESSID=g1n2sps4d2is0ksvegb1o8ob63',
+  'referer' => 'http://gamebeta.cn/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_manager[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_manager.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000827s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_manager` [ RunTime:0.007385s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_manager` LIMIT 1 [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SELECT * FROM `game_manager` LIMIT 0,20 [ RunTime:0.000251s ]
+[ error ] [4]语法错误: unexpected '(', expecting ',' or ';'[G:\www11\gamebeta01\runtime\temp\10030496077dae23e7742188b1948e4f.php:198]
+---------------------------------------------------------------
+[ 2017-05-11T23:10:55+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_manager.html
+[ info ] gamebeta.cn/admin/manager/list_manager.html [运行时间：0.049924s][吞吐率：20.03req/s] [内存消耗：2,434.96kb] [文件加载：65]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; pgv_si=s7541063680; PHPSESSID=g1n2sps4d2is0ksvegb1o8ob63',
+  'referer' => 'http://gamebeta.cn/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_manager[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_manager.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000766s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_manager` [ RunTime:0.008152s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_manager` LIMIT 1 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SELECT * FROM `game_manager` LIMIT 0,20 [ RunTime:0.000243s ]
+[ error ] [4]语法错误: unexpected '(', expecting ',' or ';'[G:\www11\gamebeta01\runtime\temp\10030496077dae23e7742188b1948e4f.php:198]
+---------------------------------------------------------------
+[ 2017-05-11T23:11:14+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_manager.html
+[ info ] gamebeta.cn/admin/manager/list_manager.html [运行时间：0.049658s][吞吐率：20.14req/s] [内存消耗：2,604.95kb] [文件加载：69]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; pgv_si=s7541063680; PHPSESSID=g1n2sps4d2is0ksvegb1o8ob63',
+  'referer' => 'http://gamebeta.cn/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_manager[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_manager.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000834s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_manager` [ RunTime:0.006555s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_manager` LIMIT 1 [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SELECT * FROM `game_manager` LIMIT 0,20 [ RunTime:0.000345s ]
+[ error ] [8]未定义变量: all_count[G:\www11\gamebeta01\runtime\temp\10030496077dae23e7742188b1948e4f.php:208]
+---------------------------------------------------------------
+[ 2017-05-11T23:11:44+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_manager.html
+[ info ] gamebeta.cn/admin/manager/list_manager.html [运行时间：0.092427s][吞吐率：10.82req/s] [内存消耗：2,438.64kb] [文件加载：63]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; pgv_si=s7541063680; PHPSESSID=g1n2sps4d2is0ksvegb1o8ob63',
+  'referer' => 'http://gamebeta.cn/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_manager[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_manager.html [ array (
+  0 => 'all_count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000638s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_manager` [ RunTime:0.005947s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_manager` LIMIT 1 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT * FROM `game_manager` LIMIT 0,20 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_role` [ RunTime:0.040011s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.000337s ]
+---------------------------------------------------------------
+[ 2017-05-11T23:11:44+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/favicon.ico
+[ info ] gamebeta.cn/admin/manager/favicon.ico [运行时间：0.044861s][吞吐率：22.29req/s] [内存消耗：2,273.97kb] [文件加载：60]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'favicon.ico',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; pgv_si=s7541063680; PHPSESSID=g1n2sps4d2is0ksvegb1o8ob63',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File

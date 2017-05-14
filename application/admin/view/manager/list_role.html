@@ -1,0 +1,120 @@
+﻿{include file="public/head" /}
+
+<title>角色管理 - 管理员管理</title>
+</head>
+<body>
+<!--_header 作为公共模版分离出去-->
+<header class="navbar-wrapper">
+	{include file="public/header" /}
+</header>
+<!--/_header 作为公共模版分离出去-->
+
+<!--_menu 作为公共模版分离出去-->
+<aside class="Hui-aside">
+	{include file="public/menu" /}
+</aside>
+<div class="dislpayArrow hidden-xs"><a class="pngfix" href="javascript:void(0);" onClick="displaynavbar(this)"></a></div>
+<!--/_menu 作为公共模版分离出去-->
+
+<section class="Hui-article-box">
+	<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 管理员管理 <span class="c-gray en">&gt;</span> 角色管理 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+	<div class="Hui-article">
+		<article class="cl pd-20">
+			<div class="cl pd-5 bg-1 bk-gray"> 
+			<span class="l"> 
+				<a href="javascript:;" onclick="datadel('{:Url('Manager/del_role')}')" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a> 
+				<a class="btn btn-primary radius" href="javascript:;" onclick="admin_role_add('添加角色','{:Url("Manager/save_role")}','800')"><i class="Hui-iconfont">&#xe600;</i> 添加角色</a> 
+			</span> 
+			<span class="r">共有数据：<strong>{$all_count}</strong> 条</span> </div>
+			<div class="mt-10">
+			<table class="table table-border table-bordered table-hover table-bg">
+				<thead>
+					<tr>
+						<th scope="col" colspan="6">角色管理</th>
+					</tr>
+					<tr class="text-c">
+						<th width="25"><input type="checkbox" name=""></th>
+						<th width="40">ID</th>
+						<th width="200">角色名</th>
+						<th>用户列表</th>
+						<th width="300">描述</th>
+						<th width="70">操作</th>
+					</tr>
+				</thead>
+				<tbody>
+					{volist name="list" id="vo"}
+					<tr class="text-c">
+						<td class="destory_input"><input type="checkbox" value="{$vo.role_id}" name=""></td>
+						<td>{$vo.role_id}</td>
+						<td>{$vo.role_name}</td>
+						<td><a href="#">admin</a></td>
+						<td>{$vo.role_note}</td>
+						<td class="f-14"><a title="编辑" href="javascript:;" onclick="admin_role_edit('角色编辑','{:Url('Manager/edit_role',array('id'=>$vo.role_id))}','1')" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> 
+						<a title="删除" href="javascript:;" onclick="admin_permission_del('{:Url('Manager/del_role')}','{$vo.role_id}')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+					</tr>
+					{/volist}
+				</tbody>
+			</table>
+			<div class="text-c">{$list->render()}</div>
+			</div>
+		</article>
+	</div>
+</section>
+
+<!--_footer 作为公共模版分离出去-->
+{include file="public/foot"} 
+<!--/_footer /作为公共模版分离出去-->
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="/static/lib/My97DatePicker/4.8/WdatePicker.js"></script>
+<script type="text/javascript" src="/static/lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="/static/lib/laypage/1.2/laypage.js"></script>
+<script type="text/javascript">
+/*管理员-角色-添加*/
+function admin_role_add(title,url,w,h){
+	layer_show(title,url,w,h);
+}
+/*管理员-角色-编辑*/
+function admin_role_edit(title,url,id,w,h){
+	layer_show(title,url,w,h);
+}
+/*管理员-权限-删除*/
+function admin_permission_del(url,id){
+	layer.confirm('角色删除须谨慎，确认要删除吗？',function(){
+		$.post(
+			url,
+			{id:id},
+			function(data){
+				if(data['status'] == 1){
+					layer.msg(data['msg'],{icon:1,time:1000});
+				}else if(data['status'] == -1){
+					layer.msg(data['msg'],{icon:-1,time:1000});
+				}
+			}
+		)
+		
+	});
+}
+function datadel(url){
+	layer.confirm('删除须谨慎，确认要删除吗？',function(){
+		var id = new Array();
+		$('.destory_input').each(function(){
+			var checkbox = $(this).find('input');
+			if(checkbox.is(':checked')){
+				id.push(checkbox.val());
+			}
+		});
+
+		$.post(
+			url,
+			{id:id},
+			function(data){
+				layer.msg(data['msg']);
+			}
+		)
+	});
+}
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

@@ -1,0 +1,76 @@
+---------------------------------------------------------------
+[ 2017-05-08T09:07:57+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/list_role.html
+[ info ] gamebeta.cn/admin/manager/list_role.html [运行时间：0.534290s][吞吐率：1.87req/s] [内存消耗：2,528.23kb] [文件加载：64]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'list_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=18rmuta8mut6d7h6440tgmgqn1; pgv_si=s113570816',
+  'referer' => 'http://gamebeta.cn/admin/manager/list_power.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Manager->list_role[ G:\www11\gamebeta01\application\admin\controller\Manager.php ]
+[ info ] [ VIEW ] G:\www11\gamebeta01\public/../application/admin\view\manager\list_role.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.105135s ] mysql:dbname=gamebeta;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game_role` [ RunTime:0.108219s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `game_role` LIMIT 1 [ RunTime:0.003314s ]
+[ sql ] [ SQL ] SELECT * FROM `game_role` LIMIT 0,20 [ RunTime:0.000372s ]
+---------------------------------------------------------------
+[ 2017-05-08T09:07:58+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/manager/favicon.ico
+[ info ] gamebeta.cn/admin/manager/favicon.ico [运行时间：0.138060s][吞吐率：7.24req/s] [内存消耗：2,234.58kb] [文件加载：59]
+[ info ] [ LANG ] G:\www11\gamebeta01\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'manager',
+    2 => 'favicon.ico',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=7525176320; Hm_lvt_080836300300be57b7f34f4b3e97d911=1493514117,1493514811; PHPSESSID=18rmuta8mut6d7h6440tgmgqn1; pgv_si=s113570816',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'gamebeta.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File

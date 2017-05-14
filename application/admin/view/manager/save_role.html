@@ -1,0 +1,125 @@
+﻿{include file="public/head" /}
+<title>新建网站角色 - 管理员管理</title>
+</head>
+<body>
+<article class="cl pd-20">
+	<form action="" method="post" class="form form-horizontal" id="form-admin-role-add">
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>角色名称：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="" id="role_name" name="role_name" datatype="*4-16" nullmsg="角色名称不能为空">
+			</div>
+		</div>
+		
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3">备注：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="" id="role_note" name="role_note">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3">网站角色：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				{volist name="menulist" id="vo"}
+				{eq name="$vo.menu_pid" value="0"}
+				<dl class="permission-list">
+
+					<dt>
+						<label>
+							<input type="checkbox" value="" name="" id="user-Character-0">
+							{$vo.menu_name}</label>
+					</dt>
+					<dd>
+						{volist name="menulist" id="vm"}
+						{eq name="$vm.menu_pid" value="$vo.menu_id"}
+						<dl class="cl permission-list2">
+							<dt>
+								<label class="">
+									<input type="checkbox" value="" name="" id="user-Character-0-0">
+									{$vm.menu_name}</label>
+							</dt>
+							<dd>
+								{volist name="powerlist" id="vp"}
+								{eq name="$vp.power_menu" value="$vm.menu_id"}
+								<label class="">
+									<input type="checkbox" value="{$vp.power_id}" name="role_power[]" id="user-Character-0-0-0">
+									{$vp.power_name}</label>
+								{/eq}
+								{/volist}
+							</dd>
+						</dl>
+						{/eq}
+						{/volist}
+					</dd>
+				</dl>
+				{/eq}
+				{/volist}
+			</div>
+		</div>
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+				<button type="submit" class="btn btn-success radius" id="admin-role-save" name=""><i class="icon-ok"></i> 确定</button>
+			</div>
+		</div>
+	</form>
+</article>
+
+<!--_footer 作为公共模版分离出去-->
+{include file="public/foot"} 
+<!--/_footer /作为公共模版分离出去-->
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="/static/lib/jquery.validation/1.14.0/jquery.validate.js"></script> 
+<script type="text/javascript" src="/static/lib/jquery.validation/1.14.0/validate-methods.js"></script> 
+<script type="text/javascript" src="/static/lib/jquery.validation/1.14.0/messages_zh.js"></script> 
+<script type="text/javascript">
+$(function(){
+	$(".permission-list dt input:checkbox").click(function(){
+		$(this).closest("dl").find("dd input:checkbox").prop("checked",$(this).prop("checked"));
+	});
+	$(".permission-list2 dd input:checkbox").click(function(){
+		var l =$(this).parent().parent().find("input:checked").length;
+		var l2=$(this).parents(".permission-list").find(".permission-list2 dd").find("input:checked").length;
+		if($(this).prop("checked")){
+			$(this).closest("dl").find("dt input:checkbox").prop("checked",true);
+			$(this).parents(".permission-list").find("dt").first().find("input:checkbox").prop("checked",true);
+		}
+		else{
+			if(l==0){
+				$(this).closest("dl").find("dt input:checkbox").prop("checked",false);
+			}
+			if(l2==0){
+				$(this).parents(".permission-list").find("dt").first().find("input:checkbox").prop("checked",false);
+			}
+		}
+	});
+	
+	$("#form-admin-role-add").validate({
+		rules:{
+			roleName:{
+				required:true,
+			},
+		},
+		onkeyup:false,
+		focusCleanup:true,
+		success:"valid",
+		submitHandler:function(form){
+			$(form).ajaxSubmit(function(data){
+				
+				var index = parent.layer.getFrameIndex(window.name);
+				if(data['status'] == 1){
+					parent.layer.msg(data['msg']);
+					setTimeout(function(){parent.layer.close(index);},1000);
+				}else if(data['status'] == -1){
+					parent.layer.msg(data['msg']);
+				}else if(data['status'] == -5){
+					parent.layer.msg(data['msg']);
+				}
+			});
+		}
+	});
+});
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>
