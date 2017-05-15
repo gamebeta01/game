@@ -14,7 +14,18 @@ class GameSystem extends CommonModel
     public function editsystem($post){
 
         foreach($post as $k=>$v){
-            if($this->where(array('system_key'))->find())
+            $field = $this->where(array('system_key'=>$k))->find();
+            if(!empty($field['system_key'])){
+                if($field['system_value'] == $v){
+                    continue;
+                }
+                $return = $this->where(array('system_key'=>$k))->setField('system_value',$v);
+            }else{
+                $data['system_key'] = $k;
+                $data['system_value'] = $v;
+                $return = $this->insert($data);
+            }
         }
+        return $return;
     }
 }

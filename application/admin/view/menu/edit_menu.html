@@ -11,6 +11,12 @@
 			</div>
 		</div>
 		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>按钮级别：</label>
+			<div class="formControls col-xs-8 col-sm-5">
+				<input type="text" class="input-text" value="{$row.menu_level}" placeholder="" id="menu_level" name="menu_level" datatype="*4-16" nullmsg="按钮名称不能为空">
+			</div>
+		</div>
+		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-3">按钮类别：</label>
 			<div class="formControls col-xs-8 col-sm-9"> <span class="select-box" style="width:300px;">
 				<select class="select" name="menu_pid" size="1">
@@ -48,6 +54,9 @@ $(function(){
 	$("#form-admin-role-add").validate({
 		rules:{
 			menu_name:{
+				required:true,
+			},
+			menu_level:{
 				required:true,
 			}
 		},

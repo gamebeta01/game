@@ -6,7 +6,8 @@ use app\admin\model\common;
 class GameMenu extends CommonModel
 {
 	private $rule = [
-		'menu_name|按钮名称'=>'require|chs'
+		'menu_name|按钮名称'=>'require|chs',
+		'menu_level|按钮级别'=>'require'
 	];
 	public function mysave($post){
 		$error = $this->MyValidate($this->rule,$post);

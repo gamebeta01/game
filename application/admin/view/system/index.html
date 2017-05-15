@@ -28,49 +28,49 @@
 						<div class="row cl">
 							<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>网站名称：</label>
 							<div class="formControls col-xs-8 col-sm-9">
-								<input type="text" id="website-title" placeholder="控制在25个字、50个字节以内" value="" class="input-text" name="system_sitename">
+								<input type="text" id="website-title" placeholder="控制在25个字、50个字节以内" value="{$row.system_sitename}" class="input-text" name="system_sitename">
 							</div>
 						</div>
 						<div class="row cl">
 							<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>关键词：</label>
 							<div class="formControls col-xs-8 col-sm-9">
-								<input type="text" id="website-Keywords" placeholder="5个左右,8汉字以内,用英文,隔开" value="" class="input-text" name="system_keywords">
+								<input type="text" id="website-Keywords" placeholder="5个左右,8汉字以内,用英文,隔开" value="{$row.system_keywords}" class="input-text" name="system_keywords">
 							</div>
 						</div>
 						<div class="row cl">
 							<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>描述：</label>
 							<div class="formControls col-xs-8 col-sm-9">
-								<input type="text" id="website-description" placeholder="空制在80个汉字，160个字符以内" value="" class="input-text" name="system_description">
+								<input type="text" id="website-description" placeholder="空制在80个汉字，160个字符以内" value="{$row.system_description}" class="input-text" name="system_description">
 							</div>
 						</div>
 						<div class="row cl">
 							<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>css、js、images路径配置：</label>
 							<div class="formControls col-xs-8 col-sm-9">
-								<input type="text" id="website-static" placeholder="默认为空，为相对路径" value="" class="input-text" name="system_static">
+								<input type="text" id="website-static" placeholder="默认为空，为相对路径" value="{$row.system_static}" class="input-text" name="system_static">
 							</div>
 						</div>
 						<div class="row cl">
 							<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>上传目录配置：</label>
 							<div class="formControls col-xs-8 col-sm-9">
-								<input type="text" id="website-uploadfile" placeholder="默认为uploadfile" value="" class="input-text" name="system_upload">
+								<input type="text" id="website-uploadfile" placeholder="默认为uploadfile" value="{$row.system_upload}" class="input-text" name="system_upload">
 							</div>
 						</div>
 						<div class="row cl">
 							<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>底部版权信息：</label>
 							<div class="formControls col-xs-8 col-sm-9">
-								<input type="text" id="website-copyright" placeholder="&copy; 2014 H-ui.net" value="" class="input-text" name="system_copyright">
+								<input type="text" id="website-copyright" placeholder="&copy; 2014 H-ui.net" value="{$row.system_copyright}" class="input-text" name="system_copyright">
 							</div>
 						</div>
 						<div class="row cl">
 							<label class="form-label col-xs-4 col-sm-2">备案号：</label>
 							<div class="formControls col-xs-8 col-sm-9">
-								<input type="text" id="website-icp" placeholder="京ICP备00000000号" value="" class="input-text" name="system_icp">
+								<input type="text" id="website-icp" placeholder="京ICP备00000000号" value="{$row.system_icp}" class="input-text" name="system_icp">
 							</div>
 						</div>
 						<div class="row cl">
 							<label class="form-label col-xs-4 col-sm-2">统计代码：</label>
 							<div class="formControls col-xs-8 col-sm-9">
-								<textarea class="textarea" name="system_count"></textarea>
+								<textarea class="textarea" name="system_count">{$row.system_count}</textarea>
 							</div>
 						</div>
 					</div>
@@ -78,13 +78,13 @@
 						<div class="row cl">
 							<label class="form-label col-xs-4 col-sm-2">允许访问后台的IP列表：</label>
 							<div class="formControls col-xs-8 col-sm-9">
-								<textarea class="textarea" name="system_allowip"></textarea>
+								<textarea class="textarea" name="system_allowip">{$row.system_allowip}</textarea>
 							</div>
 						</div>
 						<div class="row cl">
 							<label class="form-label col-xs-4 col-sm-2">后台登录失败最大次数：</label>
 							<div class="formControls col-xs-8 col-sm-9">
-								<input type="text" id="" value="5" class="input-text" name="system_login">
+								<input type="text" id="" value="{$row.system_login}" class="input-text" name="system_login">
 							</div>
 						</div>
 					</div>
@@ -92,37 +92,37 @@
 						<div class="row cl">
 							<label class="form-label col-xs-4 col-sm-2">邮件发送模式：</label>
 							<div class="formControls col-xs-8 col-sm-9">
-								<input type="text" id="" value="" class="input-text" name="system_send">
+								<input type="text" id="" value="{$row.system_send}" class="input-text" name="system_send">
 							</div>
 						</div>
 						<div class="row cl">
 							<label class="form-label col-xs-4 col-sm-2">SMTP服务器：</label>
 							<div class="formControls col-xs-8 col-sm-9">
-								<input type="text" id="" value="" class="input-text" name="system_smtphost">
+								<input type="text" id="" value="{$row.system_smtphost}" class="input-text" name="system_smtphost">
 							</div>
 						</div>
 						<div class="row cl">
 							<label class="form-label col-xs-4 col-sm-2">SMTP 端口：</label>
 							<div class="formControls col-xs-8 col-sm-9">
-								<input type="text" id="" value="25" class="input-text" name="system_smtpport">
+								<input type="text" id="" value="{$row.system_smtpport}" class="input-text" name="system_smtpport">
 							</div>
 						</div>
 						<div class="row cl">
 							<label class="form-label col-xs-4 col-sm-2">邮箱帐号：</label>
 							<div class="formControls col-xs-8 col-sm-9">
-								<input type="text" id="email-name" value="" class="input-text" name="system_emailaccount">
+								<input type="text" id="email-name" value="{$row.system_emailaccount}" class="input-text" name="system_emailaccount">
 							</div>
 						</div>
 						<div class="row cl">
 							<label class="form-label col-xs-4 col-sm-2">邮箱密码：</label>
 							<div class="formControls col-xs-8 col-sm-9">
-								<input type="password" id="email-password" value="" class="input-text" name="system_emailpwd">
+								<input type="password" id="email-password" value="{$row.system_emailpwd}" class="input-text" name="system_emailpwd">
 							</div>
 						</div>
 						<div class="row cl">
 							<label class="form-label col-xs-4 col-sm-2">收件邮箱地址：</label>
 							<div class="formControls col-xs-8 col-sm-9">
-								<input type="text" id="email-address" value="" class="input-text" name="system_emailaddr">
+								<input type="text" id="email-address" value="{$row.system_emailaddr}" class="input-text" name="system_emailaddr">
 							</div>
 						</div>
 					</div>

@@ -73,7 +73,16 @@ class CommonModel extends Model{
 	}
 	//不带分页的列表
 	public function getlistArr(){
-		return $this->select();
+		$return = $this->select();
+		$list = array();
+		foreach($return as $k=>$v){
+			if($v == null){
+				return array();
+			}elseif(is_object($v)){
+				$list[] = $v->toArray();
+			}
+		}
+		return $list;
 	}
 	public function level_one(){
 		$data = collection($this->select())->toArray();

@@ -48,7 +48,12 @@
 					<tr class="text-c">
 						<td><input type="checkbox" value="1" name=""></td>
 						<td>{$vo.menu_id}</td>
-						<td>{$vo.menu_name}</td>
+						{eq name="$vo.menu_level" value="1"}
+						<td style="text-align:left;padding-left:30%;">{$vo.menu_name}</td>
+						{/eq}
+						{eq name="$vo.menu_level" value="2"}
+						<td style="text-align:left;padding-left:30%;">|--{$vo.menu_name}</td>
+						{/eq}
 						<td>
 						<a title="编辑" href="javascript:;" onclick="admin_permission_edit('按钮编辑','{:Url('Menu/edit_menu',array('id'=>$vo['menu_id']))}','1','','310')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> 
 						<a title="删除" href="javascript:;" onclick="admin_permission_del(this,'1')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
